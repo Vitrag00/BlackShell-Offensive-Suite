@@ -7,14 +7,10 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
-# Banner
+# Banner using Python script
 banner() {
     clear
-    echo -e "${BLUE}"
-    echo "==========================================="
-    echo "    ⚔️  Ethical Hacking Tool Interface ⚔️   "
-    echo "==========================================="
-    echo -e "${NC}"
+    python3 banner.py
 }
 
 # Menu
